@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07111f" />
+    <meta
+      name="description"
+      content="Portfólio de Jones Cabral, Desenvolvedor Full Stack com Java, Spring Boot, Vue.js, Python, automação, Linux e redes."
+    />
+    <meta name="author" content="Jones Cabral" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://jctech9.github.io/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Jones Cabral — Portfólio" />
+    <meta property="og:title" content="Jones Cabral | Desenvolvedor Full Stack" />
+    <meta
+      property="og:description"
+      content="Desenvolvimento full stack com Java, Spring Boot e Vue.js, além de Python, automação, Linux e redes."
+    />
+    <meta property="og:url" content="https://jctech9.github.io/" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jones Cabral | Desenvolvedor Full Stack" />
+    <meta
+      name="twitter:description"
+      content="Java, Spring Boot, Vue.js, Python, automação, Linux e redes."
+    />
+
+    <script>
+      try {
+        const savedTheme = localStorage.getItem('jc-theme')
+        const theme =
+          savedTheme === 'light' || savedTheme === 'dark'
+            ? savedTheme
+            : matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+        document.documentElement.dataset.theme = theme
+        document.documentElement.style.colorScheme = theme
+      } catch {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jones Cabral",
+        "jobTitle": "Desenvolvedor Full Stack",
+        "email": "mailto:jonescabral.tech@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Quixadá",
+          "addressRegion": "Ceará",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://github.com/jctech9",
+          "https://www.linkedin.com/in/jones-cabral-00954030a"
+        ],
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidade Federal do Ceará"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "UNIGRANDE — Centro Universitário da Grande Fortaleza"
+          }
+        ],
+        "knowsAbout": ["Java", "Spring Boot", "Vue.js", "TypeScript", "Python", "Linux", "Redes"]
+      }
+    </script>
+
+    <title>Jones Cabral | Desenvolvedor Full Stack</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

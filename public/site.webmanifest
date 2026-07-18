@@ -1,0 +1,18 @@
+{
+  "name": "Jones Cabral — Portfólio",
+  "short_name": "Jones Cabral",
+  "description": "Portfólio profissional de Jones Cabral, Desenvolvedor Full Stack.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
