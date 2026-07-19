@@ -14,7 +14,7 @@ test('carrega a página sem erros de console e mostra o conteúdo principal', as
   await expect(
     page.getByRole('heading', { level: 1, name: /Desenvolvedor Full Stack/ }),
   ).toBeVisible()
-  await expect(page.getByTestId('project-card')).toHaveCount(6)
+  await expect(page.getByTestId('project-card')).toHaveCount(7)
   expect(consoleErrors).toEqual([])
   expect(pageErrors).toEqual([])
 })
@@ -32,9 +32,9 @@ test('navega por âncoras e os links principais são válidos', async ({ page })
   ).toBeVisible()
 
   const repositoryLinks = page.getByRole('link', { name: /Ver código/ })
-  await expect(repositoryLinks).toHaveCount(6)
+  await expect(repositoryLinks).toHaveCount(7)
   const demoLinks = page.getByRole('link', { name: /Ver projeto/ })
-  await expect(demoLinks).toHaveCount(3)
+  await expect(demoLinks).toHaveCount(4)
 })
 
 test('alterna e persiste o tema, e filtra projetos', async ({ page }) => {

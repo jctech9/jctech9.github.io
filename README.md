@@ -46,7 +46,7 @@ npx playwright install chromium
 
 ## Conteúdo dos projetos
 
-As descrições são mantidas em `src/data/projects.ts` e não dependem da API do GitHub para renderizar. Repositórios, tecnologias, testes e recursos apresentados foram verificados nos projetos públicos correspondentes em 18 de julho de 2026. As três demonstrações públicas também responderam com HTTP 200 nessa verificação.
+As descrições são mantidas em `src/data/projects.ts` e não dependem da API do GitHub para renderizar. Repositórios, tecnologias, testes e recursos apresentados foram verificados nos projetos públicos correspondentes em 19 de julho de 2026. As quatro demonstrações públicas também responderam com HTTP 200 nessa verificação.
 
 Ao atualizar um card, confirme o recurso diretamente no repositório antes de alterar a descrição.
 

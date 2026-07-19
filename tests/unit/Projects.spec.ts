@@ -5,6 +5,19 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 import { projects } from '@/data/projects'
 
 describe('Projetos', () => {
+  it('inclui o NetPulse Monitor com links para o código e o painel público', () => {
+    const netPulse = projects.find((project) => project.name === 'NetPulse Monitor')
+
+    expect(netPulse).toMatchObject({
+      category: 'Monitoramento',
+      repositoryUrl: 'https://github.com/jctech9/netpulse-monitor',
+      demoUrl: 'https://jctech9.github.io/netpulse-monitor/',
+    })
+    expect(netPulse?.technologies).toEqual(
+      expect.arrayContaining(['Python', 'Vue 3', 'TypeScript']),
+    )
+  })
+
   it('renderiza links de código e demonstração quando disponíveis', () => {
     const projectWithDemo = projects.find((project) => project.demoUrl)
     expect(projectWithDemo).toBeDefined()

@@ -2,6 +2,25 @@ import type { Project } from '@/types/portfolio'
 
 export const projects: Project[] = [
   {
+    name: 'NetPulse Monitor',
+    description:
+      'Monitor de disponibilidade de serviços com painel público de status atualizado automaticamente.',
+    category: 'Monitoramento',
+    technologies: [
+      'Python',
+      'Vue 3',
+      'TypeScript',
+      'Chart.js',
+      'GitHub Actions',
+      'GitHub Pages',
+      'Telegram Bot API',
+    ],
+    result:
+      'Monitoramento de HTTP, conteúdo, APIs JSON, TCP, DNS e TLS, com histórico de disponibilidade e incidentes e alertas de queda e recuperação.',
+    repositoryUrl: 'https://github.com/jctech9/netpulse-monitor',
+    demoUrl: 'https://jctech9.github.io/netpulse-monitor/',
+  },
+  {
     name: 'Projeto Exemplo JSON para XLSX',
     description:
       'Aplicação Java com Spring Boot que consulta uma API de origem e transforma dados JSON em planilhas XLSX.',
@@ -113,6 +132,7 @@ export const featuredTechnologies = [
   'Todas',
   'Java 21',
   'Python',
+  'Vue 3',
   'JavaScript',
   'GitHub Actions',
   'Firestore',
