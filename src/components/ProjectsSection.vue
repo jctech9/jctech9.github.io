@@ -35,8 +35,8 @@ const clearFilters = (): void => {
           <h2 id="projects-title">Código aplicado a problemas concretos.</h2>
         </div>
         <p>
-          Aplicações, automações e infraestrutura documentadas em repositórios públicos. O conteúdo
-          abaixo permanece disponível sem depender da API do GitHub.
+          Projetos organizados em dois eixos principais: desenvolvimento Full Stack e automação,
+          complementados por infraestrutura documentada em repositórios públicos.
         </p>
       </div>
 

@@ -21,6 +21,23 @@ export const projects: Project[] = [
     demoUrl: 'https://jctech9.github.io/netpulse-monitor/',
   },
   {
+    name: 'Automations',
+    description:
+      'Automações em Python para alertas meteorológicos e monitoramento do feed da UFC Quixadá, com notificações pelo Telegram.',
+    category: 'Automação',
+    technologies: [
+      'Python',
+      'GitHub Actions',
+      'APIs HTTP',
+      'Telegram Bot API',
+      'RSS/Atom',
+      'Pytest',
+    ],
+    result:
+      'Execuções agendadas com retries, timeouts, cache de estado, testes automatizados e validação TLS.',
+    repositoryUrl: 'https://github.com/jctech9/automations',
+  },
+  {
     name: 'Projeto Exemplo JSON para XLSX',
     description:
       'Aplicação Java com Spring Boot que consulta uma API de origem e transforma dados JSON em planilhas XLSX.',
@@ -37,23 +54,6 @@ export const projects: Project[] = [
     result:
       'Pipeline de exportação XLSX com testes automatizados, allowlist de destinos HTTP e proteções contra SSRF.',
     repositoryUrl: 'https://github.com/jctech9/Projeto-Exemplo-json-to-xlsx',
-  },
-  {
-    name: 'Automations',
-    description:
-      'Automações em Python para alertas meteorológicos e monitoramento do feed da UFC Quixadá, com notificações pelo Telegram.',
-    category: 'Automação',
-    technologies: [
-      'Python',
-      'GitHub Actions',
-      'APIs HTTP',
-      'Telegram Bot API',
-      'RSS/Atom',
-      'Pytest',
-    ],
-    result:
-      'Execuções agendadas com retries, timeouts, cache de estado, testes automatizados e validação TLS.',
-    repositoryUrl: 'https://github.com/jctech9/automations',
   },
   {
     name: 'UFCQ Monitor',

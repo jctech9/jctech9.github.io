@@ -8,7 +8,7 @@ import { skillGroups } from '@/data/skills'
       <div class="section-intro">
         <p class="section-number" aria-hidden="true">04</p>
         <p class="eyebrow">Competências</p>
-        <h2 id="skills-title">Uma base full stack que conversa com operações.</h2>
+        <h2 id="skills-title">Full Stack e automação apoiados por uma base de infraestrutura.</h2>
         <p>Tecnologias utilizadas em experiência profissional, formação e projetos pessoais.</p>
       </div>
 

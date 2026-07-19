@@ -11,16 +11,16 @@ defineProps<{
       <div class="hero__copy">
         <p class="eyebrow hero__eyebrow">
           <span class="status-dot" aria-hidden="true"></span>
-          Disponível para oportunidades
+          Disponível para oportunidades em Full Stack e Automação
         </p>
         <h1 id="hero-title">Desenvolvedor <span>Full Stack</span></h1>
         <p class="hero__positioning">
-          Java, Spring Boot e Vue.js <span aria-hidden="true">/</span> Python, automação, Linux e
-          redes
+          Full Stack com Java, Spring Boot e Vue.js <span aria-hidden="true">/</span> Automação com
+          Python e GitHub Actions
         </p>
         <p class="hero__summary">
-          Transformo requisitos em aplicações web organizadas, integrações confiáveis e automações
-          que simplificam operações.
+          Atuo em dois eixos: aplicações web completas e automações confiáveis que simplificam
+          operações.
         </p>
         <div class="hero__actions">
           <a class="button button--primary" href="#projetos">Conhecer projetos</a>

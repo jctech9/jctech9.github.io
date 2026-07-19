@@ -10,8 +10,8 @@ import { contactLinks } from '@/data/portfolio'
         <p class="eyebrow">Contato</p>
         <h2 id="contact-title">Vamos conversar sobre a próxima entrega.</h2>
         <p>
-          Estou aberto a oportunidades de desenvolvimento full stack e a conversas sobre projetos em
-          que automação e infraestrutura também façam diferença.
+          Estou aberto a oportunidades em desenvolvimento Full Stack e automação, além de projetos
+          nos quais Linux, redes e infraestrutura agreguem valor.
         </p>
       </div>
 

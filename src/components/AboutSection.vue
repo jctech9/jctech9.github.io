@@ -9,19 +9,19 @@
 
       <div class="about-copy prose">
         <p class="lead">
-          Estudante de Sistemas de Informação na Universidade Federal do Ceará, com experiência
-          prática em desenvolvimento full stack, automação, Linux e redes.
+          Estudante de Sistemas de Informação na Universidade Federal do Ceará, com desenvolvimento
+          Full Stack como área principal e automação como segunda área de atuação.
         </p>
         <p>
-          Trabalho com Java, Spring Boot, Vue.js, TypeScript e PostgreSQL. Em projetos pessoais,
-          também desenvolvo soluções com Python, GitHub Actions, APIs, monitoramento de serviços e
-          infraestrutura em Raspberry Pi.
+          Em Full Stack, trabalho com Java, Spring Boot, Vue.js, TypeScript e PostgreSQL. Em
+          automação, desenvolvo soluções com Python, GitHub Actions, APIs HTTP, Telegram Bot API e
+          monitoramento de serviços. Linux, redes e infraestrutura complementam essa base.
         </p>
         <div class="objective-card">
           <p class="objective-card__label">Objetivo profissional</p>
           <p>
-            Atuar como Desenvolvedor Full Stack, mantendo automação, redes, Linux e infraestrutura
-            como diferenciais técnicos.
+            Atuar prioritariamente como Desenvolvedor Full Stack e, como segunda área, em automação
+            com Python e GitHub Actions.
           </p>
         </div>
       </div>

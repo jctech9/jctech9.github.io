@@ -14,10 +14,11 @@ export const skillGroups: SkillGroup[] = [
     skills: ['PostgreSQL', 'SQL Server', 'Firestore', 'Modelagem de entidades', 'SQL'],
   },
   {
-    title: 'Automação e operações',
+    title: 'Automação',
     skills: [
+      'Python',
       'GitHub Actions',
-      'Scripts Python',
+      'APIs HTTP',
       'Telegram Bot API',
       'Monitoramento',
       'Testes automatizados',

@@ -29,6 +29,14 @@ describe('App', () => {
     expect(hrefs).toContain('https://www.linkedin.com/in/jones-cabral-00954030a')
   })
 
+  it('apresenta Full Stack e automação como áreas de atuação', () => {
+    const wrapper = mount(App)
+    const renderedText = wrapper.text()
+
+    expect(renderedText).toContain('Desenvolvedor Full Stack')
+    expect(renderedText).toContain('automação como segunda área de atuação')
+  })
+
   it('não expõe número de contato nem cria links vazios', () => {
     const wrapper = mount(App)
     const renderedText = wrapper.text()
